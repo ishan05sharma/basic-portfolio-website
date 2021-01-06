@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+:root {
+    --primary-color:#92400E;
+    --grey: #E5E7EB;
+
+}
+
+
+body{
+    font-family: Merriweather;
+}
+
+/* id */
+#abc{
+    color:green
+}
+
+/* class */
+.para{
+    color:grey;
+}
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-inline{
+    display: inline;
+}
+
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.5rem;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border-color: var(--primary-color);
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 00.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-brand{
+    font-weight: bold;
+    font-size: large;
+}
+
+.nav-pills{
+    text-align:right;
+}
+
+.navigation .link{
+    color:white;
+}
+
+.navigation .link-active{
+    font-weight: 800;
+}
+
+.hero{
+    padding: 2rem;
+}
+
+.hero-img{
+    display:block;
+    margin:auto;
+    max-width: 300px;
+}
+
+.hero-heading{
+    text-align: center;
+}
+
+.section{
+    text-align: center;
+    padding: 1rem;
+}
+
+.ow{
+    background-color: var(--grey);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    padding: 00.5rem;
+}
+
+.footer-header{
+    text-align: center;
+
+}
+
+.footer .link{
+    color: white;
+    padding: 0.5rem;
+}
