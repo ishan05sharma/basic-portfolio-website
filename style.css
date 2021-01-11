@@ -22,6 +22,15 @@ body{
     color:grey;
 }
 
+.container-center{
+    text-align: center;
+}
+
+.container-yt{
+    text-align: center;
+    margin: 1rem;
+}
+
 .list-non-bullet{
     list-style: none;
 }
@@ -88,6 +97,11 @@ body{
 
 .ow{
     background-color: var(--grey);
+}
+
+.logo{
+    color: white;
+    text-decoration: white;
 }
 
 .footer{
