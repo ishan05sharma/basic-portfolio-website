@@ -15,6 +15,7 @@
             <li class="list-inline"><a class="link" href="blog.html">Blog</a></li>
         </ul>
     </nav>
+    <span id="time"></span>
     <header class="hero">
         <img class ="hero-img" src="Images/hero.svg">
         <h1 class="hero-heading">Ishan Sharma - <div style="color: #92400E;">Another homosapien</div></h1>
@@ -45,7 +46,7 @@
         </section>
 
         <footer class="footer">
-            <div class="footer-header"><h2>You can find me here:</h2></div>
+            <div id="time" class="footer-header"><h2>You can find me here:</h2></div>
             <ul class="social links list-non-bullet">
                 <li class="list-inline"><a class="link" href="https://www.instagram.com/another.homosapien_/">instagram</a></li>
                 <li class="list-inline"><a href="https://www.linkedin.com/in/ishan05sharma/" class="link" >LinkedIn</a></a></li>
@@ -55,6 +56,15 @@
            
         </footer>
         
+        <script>
+            setInterval(() => {
+                currentDate = new Date();
+                startingDate = new Date('01/04/2021');
+                diffDays = currentDate.getTime()-startingDate.getTime();
+                outout = Math.ceil(diff/(1000*24*3600))-1 + 'th day of Web development';
+                document.getElementById('time').innerHTML = outout + "th day of web development";
+            }, 1000*24*3600);
+        </script>
 
 </body>
 </html>
